@@ -1,0 +1,10 @@
+<!--suppress ALL -->
+Header
+h1 Home
+hr
+h2 Hello {name}!
+input(bind:value="name")
+hr
+h2 Counter: {counter}
+button(on:click="set({counter: counter + 1})") Increment
+button(on:click="set({counter: counter - 1})") Decrement
